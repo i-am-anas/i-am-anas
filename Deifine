@@ -1,0 +1,45 @@
+#include <bits/stdc++.h>
+
+#define test  \
+    ll t;     \
+    cin >> t; \
+    while (t--)
+#define ll long long
+#define nl '\n'
+#define st string
+#define ff first
+#define ss second
+#define g " "
+#define si s.insert
+#define vi vector<int>
+#define pb push_back
+#define up upper_bound
+#define lw lower_bound
+#define bg .begin()
+#define nd .end()
+#define amax *max_element
+#define amin *min_element
+#define gi greater<int>()
+#define gc greater<char>()
+#define no cout << "No" << nl;
+#define No cout << "NO" << nl;
+#define yes cout << "Yes" << nl;
+#define Yes cout << "YES" << nl;
+#define ok cout << "OK" << nl;
+#define loop for (int i = 0; i < n; i++)
+#define rloop for (int i = n - 1; i >= 0; i--)
+
+using namespace std;
+
+int32_t main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    ll c1 = 0;
+    ll c2 = 0;
+
+    test
+    {
+        ll ans = 0;
